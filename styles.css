@@ -117,5 +117,13 @@ div {
     width: 100%;
     display: flex;
     position: relative;
+    align-items: flex-start;
     
+}
+
+#phone {
+    flex-wrap: initial;
+}
+#email {
+    flex-wrap: initial;
 }
