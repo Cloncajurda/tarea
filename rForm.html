@@ -4,44 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" href="./IMGs/Logo.png">
 </head>
     <body>
         <header>            
             <h1>Mighty Ducks Hockey League</h1>
-                      
+
             <nav>
                 <a href="./index.html">Home</a>
                 <a href="./about.html">About</a>
                 <a href="./contact.html">Contact</a>
                 <a href="./rules.html">Rules</a>
                 <a href="./gInfo.html">Game Info</a>
-                <a class="active" href="./about.html">Registration</a>
-
+                <a class="active" href="./rForm.html">Registration</a>
             </nav>
             <div id="banner"></div>  
-            <h2>About</h2>
+            <h2>Registration Form</h2>
         </header>
-        
-        <main>
-            <article>
-                <figure> 
-                    <img src="./IMGs/Logo_copy.png" alt="Logo"> 
-                </figure>
-                <div>
-                    <h3>Mision</h3>
-                    To support young athletes living Chicago´s northside neighborhood, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of hockey, specifically those skils around team cooperation and good sportsmanship.
-                    <br><br>
-                    <h3>Vision</h3>
-                    The Migthy Ducks Hockey League aspires to develope strong, well-rounded and mindful athletes through the building of character, self-discipline, and leadership.
-                    <br><br>
-                    <h3>General Information</h3>
-                    The Mighty Ducks Soccer League was established in 1996 to provide athletes residing Chicago´s northside neighborhoods and environment in wich to learn and play hockey. To be memner of MDHL, you must be between the ages of 4-12 and reside a Chicago Northside neighborhood. MDHL ran by a smsall full-time staff, and relies on the generous volunteer time of parents and previous league members.
-                    <br>
-                </div>
-            </article>
-        </main>
+        <section>
+            <form action="./showdata.html" method="GET">
+            <div>
+                <fieldset>
+                    <label>
+                        <span>Players`s First Name:</span>
+                        <input type="text" name="nombre">
+                    </label>
+                    <label>
+                        <span>Last Name:</span>
+                        <input type="text" name="apellido">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        <span>Street Adress:</span>
+                        <input type="text" name="nombre">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        <span>City:</span>
+                        <input type="text" name="nombre">
+                    </label>
+                    <label>
+                        <span>Zip Code:</span>
+                        <input type="text" name="apellido">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        <span>Birth Date(mm/dd/yyyy):</span>
+                        <input type="text" name="fecha">
+                    </label>
+                    <label>
+                        <span>Gender:</span>
+                        Female <input type="checkbox" name="Female" value="Female">
+                        Male <input type="checkbox" name="Male" value="Male">
+                    </label>
+                </fieldset>
+                <fieldset>
+                <label>
+                    <span>Grade:</span>
+                    <input type="checkbox" name="PreSchool" value="pSchool">Pre-School
+                    <input type="checkbox" name="PreSchool" value="pSchool"><sup>1st</sup>
+                    <input type="checkbox" name="PreSchool" value="pSchool"><sup>2nd</sup>
+                    <input type="checkbox" name="PreSchool" value="pSchool"><sup>3rd</sup>
+                    <input type="checkbox" name="PreSchool" value="pSchool"><sup>4th</sup>
+                    <input type="checkbox" name="PreSchool" value="pSchool"><sup>5th</sup>
+                </label>
+                </fieldset>
+            </div>
+            <div>
+                <h3>Which elementary shool do you live necessary?</h3>
+                <span>Closest School:</span>
+                <fieldset>
+                    <input type="checkbox" name="AJK" value="Katzenmaier">AJ Katzenmaier
+                    <input type="checkbox" name="MPH" value="Hart">Marjorie P Hart 
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="GB" value="Greenbay">Greenbay
+                    <input type="checkbox" name="NE" value="North">North Elementary 
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="HAJ" value="Yeager">Howard A Yeager
+                    <input type="checkbox" name="SE" value="South">South Elementary 
+                </fieldset>
+            </div>
+            <div>
+                <h3>What position(s) do you normaly play? (check all that apply)</h3>
+                <fieldset>
+                    <input type="checkbox" name="Fwd" value="Forward">Forward
+                    <input type="checkbox" name="Mdf" value="Midfield">Midfield
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="Dfs" value="DEfense">Defense
+                    <input type="checkbox" name="Gkpr" value="Goalkeeper">Goalkeeper
+                </fieldset>
+            </div>
+            <div>
+                <h3>Uniform Size</h3>
+                <fieldset>
+                    <input type="checkbox" name="yS" value="youthSmall">Youth Small
+                    <input type="checkbox" name="medium" value="Medium">Medium
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="yM" value="youthMedium">Youth Medium
+                    <input type="checkbox" name="large" value="Large">Large
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="yL" value="youthLarge">Youth Large
+                    <input type="checkbox" name="xL" value="extraLarge">Extra-Large
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="small" value="Ysmall">Small
+                </fieldset>
+            </div>
+        </section>
+        <section>
+            <h2>Mapa</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780643153289!2d-87.86280459999999!3d42.3258772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675697014730!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </body>
 </html>

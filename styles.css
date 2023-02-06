@@ -24,6 +24,10 @@ h2{
     margin: 0 20px;
 }
 
+#logo{
+    border: none;
+    margin-top: 40px;
+}
 img {
     max-width: 100px;
     border: solid black 1px;
@@ -50,7 +54,7 @@ main {
 
 nav {    
     position: relative;
-    left: 35%;
+    left: 10%;
     top: 20px;
     background: none;
     z-index: 1;
@@ -110,7 +114,7 @@ article {
     margin: 0 20px;
 }
 div {
-    margin: 30px 100px;
+    margin: 30px;
 }
 
 #contactInfo {
@@ -126,4 +130,28 @@ div {
 }
 #email {
     flex-wrap: initial;
+}
+
+figure{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: 10px;
+    align-content: center;
+}
+
+#mapas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+figcaption{
+    background-color: #7f6a6a;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
