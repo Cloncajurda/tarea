@@ -149,11 +149,18 @@ figure{
 fieldset{
     border: none;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1px;
+}
+
+label{
+    flex-basis: 50%;
+    
 }
 
 input{
-    border: 0.05px solid gray;
+    border: 0;
+    border-bottom:0.05px solid gray;
 }
 
 #mapas{
