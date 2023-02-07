@@ -13,8 +13,8 @@ h1{
 }
 
 h2{
-    background-color: rgb(255, 255, 255);
-    border: solid 1px;
+    background-color: #778094;
+    color: #fff;
     width: 100%;
     height: 30px;
     font-family:'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -67,7 +67,7 @@ nav a {
     font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: white;
-    background-color: rgb(75, 66, 205);
+    background-color: #778094;
     text-decoration: none;
     text-align: center;
     padding: 3px;
@@ -86,7 +86,7 @@ nav a {
 }
 
 .active {
-    background-color: green;
+    background-color: rgb(178, 216, 41);
 }
 
 table {
@@ -98,21 +98,25 @@ th {
     border: 1px solid black;
     background-color: aqua;
 }
+
 td {
     padding: 2rem;
     margin: 2rem;
     border: 1px solid black
 }
+
 caption {
     border: 1px solid black;
     background-color: rgb(255, 254, 195);
 }
+
 article {
     width: 100%;
     display: flex;
     position: relative;
     margin: 0 20px;
 }
+
 div {
     margin: 30px;
 }
@@ -128,6 +132,7 @@ div {
 #phone {
     flex-wrap: initial;
 }
+
 #email {
     flex-wrap: initial;
 }
@@ -139,13 +144,14 @@ figure{
     padding: 5px;
     max-width: 300px;
     margin: 10px;
-    align-content: center;
 }
+
 fieldset{
     border: none;
     display: flex;
     justify-content: space-around;
 }
+
 input{
     border: 0.05px solid gray;
 }
