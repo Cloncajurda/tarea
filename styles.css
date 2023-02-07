@@ -141,6 +141,14 @@ figure{
     margin: 10px;
     align-content: center;
 }
+fieldset{
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    border: 0.05px solid gray;
+}
 
 #mapas{
     display: flex;
